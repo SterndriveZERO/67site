@@ -3,9 +3,11 @@
 <head>
   <title>67 Site</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" href="{{ url_for('static', filename='icon.png') }}">
 </head>
 
 <body>
+{% include 'partials/particles_background.html' %}
 
 <header>
   <h1>67site</h1>
